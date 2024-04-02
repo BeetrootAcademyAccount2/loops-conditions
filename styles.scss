@@ -1,0 +1,31 @@
+$colors: (
+  primary: red,
+  secondary: blue,
+  tertiary: yellow,
+  dark: black,
+  light: white,
+);
+
+$font-size: 0.75rem;
+
+@each $name, $color in $colors {
+  .#{$name} {
+    color: $color;
+  }
+
+  @if $name != "dark" {
+    .bg-#{$name} {
+      background-color: $color;
+    }
+  } @else {
+    .bg-#{$name} {
+      background-color: grey;
+    }
+  }
+}
+
+@for $i from 1 through 6 {
+  .h#{7-$i} {
+    font-size: $i * $font-size;
+  }
+}

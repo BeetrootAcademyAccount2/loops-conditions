@@ -1,0 +1,63 @@
+.primary {
+  color: red;
+}
+
+.bg-primary {
+  background-color: red;
+}
+
+.secondary {
+  color: blue;
+}
+
+.bg-secondary {
+  background-color: blue;
+}
+
+.tertiary {
+  color: yellow;
+}
+
+.bg-tertiary {
+  background-color: yellow;
+}
+
+.dark {
+  color: black;
+}
+
+.bg-dark {
+  background-color: grey;
+}
+
+.light {
+  color: white;
+}
+
+.bg-light {
+  background-color: white;
+}
+
+.h6 {
+  font-size: 0.75rem;
+}
+
+.h5 {
+  font-size: 1.5rem;
+}
+
+.h4 {
+  font-size: 2.25rem;
+}
+
+.h3 {
+  font-size: 3rem;
+}
+
+.h2 {
+  font-size: 3.75rem;
+}
+
+.h1 {
+  font-size: 4.5rem;
+}/*# sourceMappingURL=styles.css.map */
